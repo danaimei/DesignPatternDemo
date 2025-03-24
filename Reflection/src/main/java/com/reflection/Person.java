@@ -1,4 +1,4 @@
-package com.designPatternDemo;
+package com.reflection;
 
 public class Person {
 

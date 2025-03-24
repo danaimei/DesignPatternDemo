@@ -1,4 +1,4 @@
-package com.designPatternDemo;
+package com.reflection;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         //動態載入Class
-        Class<?> clazz = Class.forName("com.designPatternDemo.Person");
+        Class<?> clazz = Class.forName("com.reflection.Person");
 
         //Class名
         System.out.println(clazz.getName());
